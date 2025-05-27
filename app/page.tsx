@@ -54,9 +54,10 @@ export default function Home() {
 
   const handleSwap = async () => {
     if (!connected || !wallet.publicKey) {
-      alert('Please connect your wallet first');
+      alert('Please connect your wallet ');
       return;
     }
+
 
     setIsLoading(true);
 
